@@ -9,3 +9,5 @@ Este proyecto está bajo la licencia [Apache License 2.0](LICENSE).
 
 ---
 ¡Espero que disfrutes este pequeño juego RPG!
+
+[Holahola](https://chat.deepseek.com/)
