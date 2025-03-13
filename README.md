@@ -24,10 +24,8 @@
 
 ### Almacenamiento en la Nube (5f)
 - **Situación Actual**: No se usa almacenamiento en la nube.
-- **Seguridad y Disponibilidad Futura**: 
-  - Usar servicios como **Firebase** o **AWS S3** con cifrado AES-256 y autenticación OAuth2.
 - **Alternativas Consideradas**: 
-  - Bases de datos locales (SQLite) para simplicidad, pero la nube ofrece escalabilidad y acceso remoto.
+  - Bases de datos locales para simplicidad, pero la nube ofrece mayor escalabilidad y acceso remoto.
 
 ---
 
@@ -35,9 +33,9 @@
 - **Medidas Actuales**: 
   - No se manejan datos sensibles, por lo que no hay medidas específicas.
 - **Riesgos Potenciales**: 
-  - Si se añaden perfiles de usuario, se requeriría cumplir con GDPR (consentimiento, derecho al olvido).
+  - Si se añaden perfiles de usuario, se requeriría cumplir con la protección de datos.
 - **Futuras Mejoras**: 
-  - Cifrado de comunicaciones y almacenamiento de contraseñas con hash + sal.
+  - En caso de añadir datos sensibles, añadir cifrado y almacenamiento de contraseñas con hash.
 
 ---
 
@@ -45,7 +43,6 @@
 - **Impacto Actual**: 
   - Es un juego, pero su lógica de turnos y gestión de recursos podría adaptarse para:
     - Simuladores de toma de decisiones en entornos industriales.
-    - Entrenamiento en gestión de riesgos.
 - **Beneficios Potenciales**: 
   - Mejora de procesos operativos mediante simulación de escenarios críticos.
 
@@ -65,7 +62,6 @@
 - **Futuras THD**: 
   - **APIs REST**: Para guardar puntuaciones en línea.
   - **Machine Learning**: Mejorar la IA del dealer (ej: predecir elecciones del jugador).
-  - **Realidad Aumentada**: Transformar el juego en una experiencia interactiva física-virtual.
 
 ---
 
