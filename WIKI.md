@@ -13,23 +13,7 @@ Bienvenido a la documentación técnica y al devlog de BuckShot Roulette. / Welc
 * **utils/**: Funciones auxiliares y helpers. / Helper functions and utilities.
 * **config/**: Archivos de configuración JSON. / JSON configuration files.
 
-### 1.2 Diagrama de Clases / Class Diagram
-
-```mermaid
-tclassDiagram
-    Player <|-- HumanPlayer
-    Player <|-- Dealer
-    class Player {
-        - String name
-        - int life
-        + shoot(): Boolean
-        + useItem(item: Item)
-    }
-```
-
-*Mermaid soportado en GitHub para visualizar diagramas.*
-
-### 1.3 Documentación Automática / Generated Documentation
+### 1.2 Documentación Automática / Generated Documentation
 
 La documentación se genera con Dokka. Ejecuta:
 
