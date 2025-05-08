@@ -25,29 +25,37 @@
 
 **Español:**
 
-1. **Licencia abierta y colaborativa:** Establecer una licencia permisiva (por ejemplo MIT o Apache 2.0) que fomente la adopción y modificación del proyecto sin ánimo de lucro. De este modo se crea una comunidad de usuarios y desarrolladores que pueden contribuir con mejoras, reportar errores y compartir extensiones gráficas o de funcionalidad.
+1. **Licencia abierta y colaborativa:** Se ha establecido una licencia permisiva para fomentar la adopción y modificación del proyecto sin ánimo de lucro. De este modo se crea una comunidad de usuarios y desarrolladores que puedan contribuir con mejoras, reporte de errores y compartir extensiones gráficas o de funcionalidad.
 
-2. **Alineación organizacional y expansión colaborativa:** Aunque inicialmente el proyecto es impulsado por un único desarrollador, se busca:
+2. **Alineación organizacional y expansión colaborativa:** Aunque inicialmente el proyecto está impulsado por un único desarrollador, se busca:
 
    * Comunicar progresos y recibir feedback de otros desarrolladores a través de GitHub Issues y Pull Requests.
    * Invitar a diseñadores gráficos para crear assets (imágenes, iconos) y mejorar la experiencia de usuario.
    * Abrir canales en redes o foros especializados (p.ej. Discord, LinkedIn) para tomar ideas de la comunidad y coordinar futuras aportaciones.
 
-3. **Accesibilidad, comprensibilidad y escalabilidad del código:** Documentar exhaustivamente el código usando KDoc para todas las clases y funciones, describiendo parámetros, valores de retorno y ejemplos de uso. Organizar el repositorio con módulos claros:
+3. **Accesibilidad, comprensibilidad y escalabilidad del código:** Se ha buscado documentar exhaustivamente el código usando KDoc para todas las clases y funciones, describiendo parámetros, valores de retorno y ejemplos de uso. Se plantea implementar una organización del repositorio con módulos claros:
 
    * `core/` para la lógica de juego.
    * `ui/` para componentes de interfaz.
    * `utils/` para funciones auxiliares.
    * Incluir un índice de documentación automática generado con Dokka que facilite la navegación y aporte búsquedas rápidas.
 
-4. **Impacto de la digitalización en la empresa:** Analizar cómo BuckShot Roulette puede:
+4. **Impacto de la digitalización en la empresa:** Análisis de cómo BuckShot Roulette puede:
 
    * **Ámbito digital:** Demostrar el potencial de software ágil y modular para proyectos internos, fomentando el uso de Kotlin y herramientas modernas.
-   * **Ámbito empresarial:** Servir como caso de estudio para la transformación digital, mostrando ahorro de tiempo y recursos en simulaciones de entrenamiento o gamificación corporativa.
+   * **Ámbito empresarial:** Servir como caso de estudio para la transformación digital, mostrando ahorro de tiempo y recursos en simulaciones de entrenamiento para IA.
    * **Ámbito cultural:** Reflejar una cultura de innovación y colaboración abierta, incentivando a los equipos a experimentar con código abierto.
    * **Ámbito innovador:** Inspirar la integración de mecánicas de juego en procesos formativos y de testing, apoyando la innovación de productos y servicios digitales.
 
----
+**English:**
+
+1. **Open-source and Collaborative License:** A permissive license has been established to encourage adoption and modification of the project without profit motive. This creates a community of users and developers who can contribute improvements, report bugs, and share graphical or functional extensions.
+
+2. **Organizational Alignment and Collaborative Expansion:** Although the project is initially driven by a single developer, it aims to:
+
+   * Communicate progress and receive feedback from other developers via GitHub Issues and Pull Requests.
+   * Invite graphic designers to create assets (images, icons) and enhance user experience.
+   * Open channels on social platforms or specialized forums (e.g., Discord, LinkedIn) to
 
 ## Ciclo de Vida del Dato / Data Lifecycle (5b)
 
@@ -154,13 +162,6 @@
 ---
 
 ## Requisitos / Requirements
-
-**Español:**
-
-* Kotlin 1.8+
-* JVM 11+
-
-**English:**
 
 * Kotlin 1.8+
 * JVM 11+
