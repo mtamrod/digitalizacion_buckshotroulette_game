@@ -1,16 +1,90 @@
 # BuckShot Roulette - Juego de Estrategia en Kotlin / Strategy Game in Kotlin
 
+## Motivación / Motivation
+
+**Español:**
+Este proyecto se originó en un contexto académico para abordar un par de ejercicios pendientes de curso. Tras completarlo, surgió la idea de seguir mejorándolo y convertirlo en una demostración pública del trabajo individual, con el fin de contribuir a la comunidad de desarrollo y ofrecer una experiencia lúdica y satisfactoria a los usuarios.
+
+**English:**
+This project was initially created for academic purposes to tackle a couple of pending assignments. After its completion, it was decided to continue refining it with the goal of showcasing an individual’s small-scale work to a broader audience, contributing to the developer community, and providing users with an enjoyable and rewarding experience.
+
 ## Descripción del Proyecto / Project Description
 
 **Español:**
 **BuckShot Roulette** es un juego desarrollado en Kotlin donde dos jugadores (un humano y un dealer controlado por IA) se enfrentan en una partida de ruleta rusa con una escopeta cargada aleatoriamente con balas reales (dañinas) y balas falsas (inofensivas). El objetivo es reducir la vida del oponente a cero mediante turnos alternados, utilizando objetos estratégicos para obtener ventajas.
 
 **English:**
-**BuckShot Roulette** is a game developed in Kotlin where two players (one human and an AI-controlled dealer) engage in a Russian roulette match with a shotgun loaded randomly with real (harmful) and dummy (harmless) rounds. The goal is to reduce the opponent's life to zero through alternate turns, using strategic items for advantages.
+**BuckShot Roulette** is a game developed in Kotlin where two players (one human and an AI-controlled dealer) engage in a Russian roulette match with a shotgun loaded randomly with real (harmful) and dummy (harmless) rounds. The goal is to reduce the opponent’s life to zero through alternate turns, using strategic items for advantages.
 
----
+## Cómo Ejecutar / How to Run and Deploy
 
-## Características Principales / Key Features
+**Español:**
+
+1. **Clona el repositorio:**
+
+   ```bash
+   git clone https://github.com/tuUsuario/buckshot-roulette.git
+   cd buckshot-roulette
+   ```
+2. **Requisitos Previos:**
+
+   * Tener instalado **Kotlin 1.8+** y **JVM 11+**.
+   * (Opcional) SDKMAN! o Homebrew para gestionar versiones de Kotlin.
+3. **Compilar el proyecto:**
+
+   ```bash
+   ./gradlew build
+   ```
+
+   Esto generará un archivo ejecutable `buckshot-roulette.jar` en `build/libs/`.
+4. **Ejecutar la aplicación:**
+
+   ```bash
+   java -jar build/libs/buckshot-roulette.jar
+   ```
+5. **Opciones adicionales: (Aún no implementadas)**
+
+   * `--mode=demo`: Arranca en modo demostración sin IA.
+   * `--config=path/to/config.json`: Carga configuraciones personalizadas (número de rondas, objetos extra, etc.).
+6. **Despliegue en entornos web (opcional):**
+
+   * Convierte el juego en una aplicación web con Kotlin/JS o empaquétalo con Electron.
+   * Sube el paquete a un servidor estático (Netlify, Vercel) o a un contenedor Docker.
+
+**English:**
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourUser/buckshot-roulette.git
+   cd buckshot-roulette
+   ```
+2. **Prerequisites:**
+
+   * **Kotlin 1.8+** and **JVM 11+** installed.
+   * (Optional) SDKMAN! or Homebrew for Kotlin version management.
+3. **Build the project:**
+
+   ```bash
+   ./gradlew build
+   ```
+
+   This will produce an executable `buckshot-roulette.jar` in the `build/libs/` directory.
+4. **Run the application:**
+
+   ```bash
+   java -jar build/libs/buckshot-roulette.jar
+   ```
+5. **Additional options: (Not yet implemented)**
+
+   * `--mode=demo`: Starts in demo mode without AI.
+   * `--config=path/to/config.json`: Loads custom settings (number of rounds, extra items, etc.).
+6. **Web deployment (optional):**
+
+   * Port the game to a web app using Kotlin/JS or bundle it with Electron.
+   * Deploy the bundle to a static hosting service (Netlify, Vercel) or a Docker container.
+
+\--- Principales / Key Features
 
 | Español                                                                                                                                                | English                                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -55,7 +129,23 @@
 
    * Communicate progress and receive feedback from other developers via GitHub Issues and Pull Requests.
    * Invite graphic designers to create assets (images, icons) and enhance user experience.
-   * Open channels on social platforms or specialized forums (e.g., Discord, LinkedIn) to
+   * Open channels on social platforms or specialized forums (e.g., Discord, LinkedIn) to gather community ideas and coordinate future contributions.
+
+3. **Code Accessibility, Comprehensibility, and Scalability:** The code has been thoroughly documented using KDoc for all classes and functions, describing parameters, return values, and usage examples. The repository is organized into clear modules:
+
+   * `core/` for game logic.
+   * `ui/` for interface components.
+   * `utils/` for helper functions.
+   * Includes an automatically generated documentation index with Dokka for easy navigation and quick searches.
+
+4. **Digitalization Impact Analysis:** Examination of how BuckShot Roulette can:
+
+   * **Digital Scope:** Showcase the potential of agile and modular software for internal projects, promoting the use of Kotlin and modern tools.
+   * **Business Scope:** Serve as a case study for digital transformation, demonstrating time and resource savings in AI training simulations.
+   * **Cultural Scope:** Reflect a culture of innovation and open collaboration, encouraging teams to experiment with open-source code.
+   * **Innovative Scope:** Inspire the integration of gaming mechanics into training and testing processes, supporting innovation in digital products and services.
+
+---
 
 ## Ciclo de Vida del Dato / Data Lifecycle (5b)
 
@@ -142,29 +232,6 @@
 
 * **Technologies Used:** Kotlin for modular programming and higher-order functions.
 * **Future Digital Technologies:** REST APIs for online score storage, Machine Learning to enhance dealer AI.
-
----
-
-## Cómo Ejecutar / How to Run
-
-**Español:**
-
-1. Clona el repositorio.
-2. Abre el proyecto en IntelliJ IDEA o IDE compatible con Kotlin.
-3. Ejecuta `Main.kt` y sigue el menú.
-
-**English:**
-
-1. Clone the repository.
-2. Open the project in IntelliJ IDEA or a Kotlin-compatible IDE.
-3. Run `Main.kt` and follow the menu prompts.
-
----
-
-## Requisitos / Requirements
-
-* Kotlin 1.8+
-* JVM 11+
 
 ---
 
